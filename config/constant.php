@@ -3,7 +3,7 @@ $WEBSITE_URL				=	env("APP_URL");
 $FRONT_WEBSITE_URL = env('WEBSITE_URL');
 $BASE_PATH = '/home/suryavanshi/public_html/public/';
 if(!empty($_SERVER['SERVER_NAME']) && ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == '127.0.0.1')){
-	$BASE_PATH =  'C:/xampp/htdocs/suryavanshi-frontend/public/';
+	$BASE_PATH =  'C:/xampp/htdocs/pinkcityroutes-frontend/public/';
 }
 
 return [
